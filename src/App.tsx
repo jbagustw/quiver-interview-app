@@ -15,7 +15,7 @@ function App() {
         <Navbar currentUser={currentUser} setCurrentUser={setCurrentUser} />
         <main className="main-content">
           <Routes>
-            <Route path="/" element={<Home currentUser={currentUser} />} />
+            <Route path="/" element={<Home currentUser={currentUser} setCurrentUser={setCurrentUser} />} />
             <Route path="/interview" element={<Interview currentUser={currentUser} />} />
             <Route path="/results" element={<Results currentUser={currentUser} />} />
           </Routes>

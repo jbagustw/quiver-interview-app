@@ -5,18 +5,16 @@ import './Home.css'
 
 interface HomeProps {
   currentUser: string | null
+  setCurrentUser?: (user: string) => void
 }
 
-const Home = ({ currentUser }: HomeProps) => {
+const Home = ({ currentUser, setCurrentUser }: HomeProps) => {
   const [username, setUsername] = useState('')
-  const [isLoggedIn, setIsLoggedIn] = useState(false)
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault()
-    if (username.trim()) {
-      setIsLoggedIn(true)
-      // In a real app, this would be handled by the parent component
-      window.location.reload() // Temporary solution to update the app state
+    if (username.trim() && setCurrentUser) {
+      setCurrentUser(username.trim())
     }
   }
 
