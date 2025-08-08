@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: #ffffff;
-  background-color: #0a0a0a;
+  background-color: #0f1419;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -26,6 +26,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #0f1419;
 }
 
 #root {
@@ -34,6 +35,7 @@ body {
   padding: 2rem;
   text-align: center;
   width: 100%;
+  background-color: #0f1419;
 }
 
 a {
