@@ -32,7 +32,7 @@
 
 .hero-subtitle {
   font-size: 1.25rem;
-  color: rgba(255, 255, 255, 0.9);
+  color: #ffffff;
   margin-bottom: 3rem;
   line-height: 1.6;
 }
@@ -54,8 +54,8 @@
 }
 
 .welcome-card {
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 16px;
   padding: 2rem;
   text-align: center;
@@ -68,7 +68,7 @@
 }
 
 .welcome-card p {
-  color: rgba(255, 255, 255, 0.9);
+  color: #ffffff;
   margin-bottom: 2rem;
 }
 
@@ -101,8 +101,8 @@
 }
 
 .feature-card {
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 16px;
   padding: 2rem;
   text-align: center;
@@ -138,7 +138,7 @@
 }
 
 .feature-description {
-  color: rgba(255, 255, 255, 0.8);
+  color: #ffffff;
   line-height: 1.6;
 }
 
@@ -150,8 +150,8 @@
 .cta-card {
   max-width: 600px;
   margin: 0 auto;
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 16px;
   padding: 3rem 2rem;
 }
@@ -165,7 +165,7 @@
 
 .cta-card p {
   font-size: 1.125rem;
-  color: rgba(255, 255, 255, 0.9);
+  color: #ffffff;
   margin-bottom: 2rem;
   line-height: 1.6;
 }

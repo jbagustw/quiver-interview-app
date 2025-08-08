@@ -18,7 +18,7 @@
 
 .interview-header p {
   font-size: 1.125rem;
-  color: rgba(255, 255, 255, 0.9);
+  color: #ffffff;
 }
 
 .auth-required {
@@ -33,7 +33,7 @@
 }
 
 .auth-required p {
-  color: rgba(255, 255, 255, 0.9);
+  color: #ffffff;
 }
 
 .start-section {
@@ -44,8 +44,8 @@
 }
 
 .start-card {
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 16px;
   padding: 3rem 2rem;
   text-align: center;
@@ -59,7 +59,7 @@
 }
 
 .start-card p {
-  color: rgba(255, 255, 255, 0.9);
+  color: #ffffff;
   margin-bottom: 2rem;
   line-height: 1.6;
 }
@@ -71,8 +71,8 @@
 }
 
 .question-section {
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 16px;
   padding: 2rem;
 }

@@ -18,7 +18,7 @@
 
 .results-header p {
   font-size: 1.125rem;
-  color: rgba(255, 255, 255, 0.9);
+  color: #ffffff;
 }
 
 .auth-required {
@@ -33,7 +33,7 @@
 }
 
 .auth-required p {
-  color: rgba(255, 255, 255, 0.9);
+  color: #ffffff;
 }
 
 .stats-overview {
@@ -44,8 +44,8 @@
 }
 
 .stat-card {
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 16px;
   padding: 2rem;
   display: flex;
@@ -74,7 +74,7 @@
 }
 
 .stat-content p {
-  color: rgba(255, 255, 255, 0.8);
+  color: #ffffff;
   font-size: 0.875rem;
 }
 
@@ -95,8 +95,8 @@
 }
 
 .result-card {
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 16px;
   padding: 2rem;
   cursor: pointer;
